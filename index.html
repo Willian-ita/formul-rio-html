@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pesqisa de satifação</title>
+    </head>
+    <h1>Pesquisa de satisfação</h1>
+    <form method="post" action="processar pesquisa.html">
+        <section>
+            <h2>Dados pessoais</h2>
+            <p>
+                <label>Nome:</label>
+                <input type="text" id="Nome">
+            </p>
+            <p>
+                <label>E-mail:</label>
+                <input type="email" id="E-mail" />
+            </p>
+            <p>
+                <label>Telefone:</label>
+                <input type="tel" id="Telefone" />
+            </p>
+        </section>
+        <section>
+            <h2>Dados da pesquisa</h2>
+            <p>
+                Qual nota você daria para nosso atendimento numa escala de 1 á 5?
+                <input type="radio" id="1" name="nota atendimento" />
+                <label for="1">1</label>
+                <input type="radio" id="2" name="nota atendimento" />
+                <label for="2">2</label>
+                <input type="radio" id="3" name="nota atendimento" />
+                <label for="3">3</label>
+                <input type="radio" id="4" name="nota atendimento" />
+                <label for="4">4</label>
+                <input type="radio" id="5" name="nota atendimento" />
+                <label for="5">5</label>
+            </p>
+            <p>
+                Numa nota de 1 á 5, o quanto nos indicaria para outras pessoas?
+                <input type="radio" id="1" name="nota indicação" />
+                <label for="1">1</label>
+                <input type="radio" id="2" name="nota indicação" />
+                <label for="2">2</label>
+                <input type="radio" id="3" name="nota indicação" />
+                <label for="3">3</label>
+                <input type="radio" id="4" name="nota indicação" />
+                <label for="4">4</label>
+                <input type="radio" id="5" name="nota indicação" />
+                <label for="5">5</label>
+            </p>
+            <p>
+                <label for="Departamento">Departamento de atendimento</label>
+                <select>
+                    <option>Administração</option>
+                    <option>Financeiro</option>
+                    <option>Marketing</option>
+                    <option>Recursos humanos</option>
+                    <option>Recepção</option>
+                </select>
+                <p>
+                    <input type="checkbox" id="compartilhamento-dados" />
+                    <label for="compartilhamento-dados">Autorizo compartilhamento de dados com terceiros.</label>
+                </p>                  
+                <input type="submit" value="Enviar"/>
+
+            </p>
+        </section>
+    </form>
+
+    
+
+</html>
